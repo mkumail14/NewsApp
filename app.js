@@ -3,7 +3,7 @@ function search(){
         alert("You Can't Leave it empty");
     }else{
     var input=document.getElementById('topicName').value;
-    fetch(`https://newsapi.org/v2/everything?q=${input}&from=2024-05-15&sortBy=publishedAt&apiKey=API_KEY`)
+    fetch(`https://newsapi.org/v2/everything?q=${input}&from=2024-05-15&sortBy=publishedAt&apiKey=7794a0f650e64d8f94bd055d36fef11f`)
     .then(function(response) {
       if (!response.ok) {
 
