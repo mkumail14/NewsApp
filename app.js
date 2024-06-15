@@ -3,7 +3,7 @@ function search(){
         alert("You Can't Leave it empty");
     }else{
     var input=document.getElementById('topicName').value;
-    fetch(`https://newsapi.org/v2/everything?q=${input}&from=2024-05-15&sortBy=publishedAt&apiKey=7794a0f650e64d8f94bd055d36fef11f`)
+    fetch(`https://newsdata.io/api/1/news?apikey=pub_46447f0aba730f2b20c23f7da0a4d67af2839&q=${input} `)
     .then(function(response) {
       if (!response.ok) {
 
